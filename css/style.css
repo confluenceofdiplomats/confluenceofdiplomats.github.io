@@ -10,15 +10,13 @@ body {
 
 nav {
     opacity: 0.9;
-    /*position: fixed;*/
     background-color: #0a0b0c;
-    /*display: flex;*/
 }
 
 nav ul li {
     cursor: pointer;
     display: inline-block;
-    padding: 0 2em 0 2em;
+    padding: 0 1em 0 1em;
     transition-duration: 0.3s;
 }
 nav ul li:hover {
