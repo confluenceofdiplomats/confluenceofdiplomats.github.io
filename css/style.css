@@ -10,9 +10,9 @@ body {
 
 nav {
     opacity: 0.9;
-    position: fixed;
+    /*position: fixed;*/
     background-color: #0a0b0c;
-    display: flex;
+    /*display: flex;*/
 }
 
 nav ul li {
@@ -27,20 +27,6 @@ nav ul li:hover {
 nav ul {
     padding: 0;
     margin: 0 auto 0 auto;
-}
-
-#horizontal {
-    height: 4em;
-    width: 100%;
-    z-index: 487;
-    transition-duration: 0.3s;
-}
-
-#vertical {
-    height: 100%;
-    width: 4em;
-    z-index: 486;
-    transition-duration: 0.3s;
 }
 
 #mainbox {
