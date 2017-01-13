@@ -11,7 +11,7 @@
     
     <!--Javascript Libraries-->
     <script src="https://use.fontawesome.com/66ac4a4e29.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>-->
@@ -22,9 +22,18 @@
   
   </head>
   <body ng-app="cod" ng-controller="homeController">
-    <nav id="horizontal">
-      
-    </nav>
+    <div class="navbar-fixed">
+      <nav id="horizontal">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo right">Confluence of Diplomats</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     
     <div class="container">
       
