@@ -30,7 +30,7 @@ nav ul {
 
 h1 {
     margin: 0;
-    padding: 1em;
+    padding-top: 1em;
 }
 
 ::-webkit-scrollbar {
@@ -53,4 +53,7 @@ h1 {
 .center .timer {
   display: inline-block;
   width: auto;
+}
+.timer {
+    margin: 4em;
 }
