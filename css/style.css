@@ -1,5 +1,6 @@
 /*TODO: Figure out less or equivalent*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+
 body {
     background-color: rgb(35, 35, 35); 
     color: #ffffff;
@@ -41,4 +42,15 @@ h1 {
 }
 ::-webkit-scrollbar-track {
     background-color: #0a0b0c;
+}
+
+.flip-clock-divider .flip-clock-label {
+    color: #009688;
+}
+.center {
+  text-align: center;
+}
+.center .timer {
+  display: inline-block;
+  width: auto;
 }
