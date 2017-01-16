@@ -53,6 +53,10 @@ h1 {
   display: inline-block;
   width: auto;
 }
+section {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
 .timer {
     margin: 4em;
 }
