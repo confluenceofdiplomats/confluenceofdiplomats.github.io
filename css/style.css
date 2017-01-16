@@ -57,17 +57,17 @@ h1 {
     margin: 4em;
 }
 @media only screen and (max-width: 792px) {
-    .timer {
+    .shrink {
         zoom: 0.7;
     }
 }
 @media only screen and (max-width: 550px) {
-    .timer {
-        zoom: 0.5;
+    .shrink {
+        zoom: 0.6;
     }
 }
 @media only screen and (max-width: 500px) {
-    .timer {
-        zoom: 0.3;
+    .shrink {
+        zoom: 0.5;
     }
 }
