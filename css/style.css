@@ -56,3 +56,18 @@ h1 {
 .timer {
     margin: 4em;
 }
+@media only screen and (max-width: 792px) {
+    .timer {
+        zoom: 0.7;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .timer {
+        zoom: 0.5;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .timer {
+        zoom: 0.3;
+    }
+}
