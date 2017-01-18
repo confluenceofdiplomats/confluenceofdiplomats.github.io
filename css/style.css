@@ -60,6 +60,12 @@ section {
 .timer {
     margin: 4em;
 }
+.ga-background {
+    background-image: url("../img/ga.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 792px) {
     .shrink {
         zoom: 0.7;
