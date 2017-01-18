@@ -64,8 +64,12 @@ section {
     background-image: url("../img/ga.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
-
+.pad {
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
 @media only screen and (max-width: 792px) {
     .shrink {
         zoom: 0.7;
