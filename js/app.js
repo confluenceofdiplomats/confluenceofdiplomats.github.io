@@ -1,3 +1,4 @@
+/* global $ angular */ 
 var app = angular.module("cod", []);
 
 app.controller('homeController', function($scope) {
@@ -14,4 +15,8 @@ $(document).ready(function() {
 		countdown: true,
 		showSeconds: true
 	});
+});
+
+$(document).ready(function(){
+	$('.scrollspy').scrollSpy({scrollOffset: 20});
 });
